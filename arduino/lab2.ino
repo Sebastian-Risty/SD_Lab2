@@ -121,7 +121,7 @@ void loop() {
     #ifdef DEBUG_PHOTO
       Serial.println("Phototransistor");
     #endif
-  } else if (targetAmplitude >= thresholdAmplitude || targetAmplitude <= 2) { //check photodiode
+  } else if (targetAmplitude >= thresholdAmplitude) { //check photodiode
     onCounter++;
     offCounter = 0;
     if (onCounter >= 3) {
