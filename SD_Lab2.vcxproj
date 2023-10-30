@@ -141,6 +141,9 @@
     <ClInclude Include="globals.h" />
     <ClInclude Include="sms.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="arduino\lab2.ino" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

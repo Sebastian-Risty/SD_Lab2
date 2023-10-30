@@ -46,4 +46,7 @@
       <Filter>SMS</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="arduino\lab2.ino" />
+  </ItemGroup>
 </Project>
