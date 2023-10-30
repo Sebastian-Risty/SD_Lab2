@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BT">
+      <UniqueIdentifier>{41c0d259-41fa-4df6-8b49-19981c197faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="globals">
+      <UniqueIdentifier>{d01ce925-ea48-4889-a095-93cc36a98fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMS">
+      <UniqueIdentifier>{e6eee985-2f72-435a-9d22-8928f687ffa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{c770fe23-b04f-407d-a61d-6adc01564573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="BT.cpp">
+      <Filter>BT</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="sms.cpp">
+      <Filter>SMS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BT.h">
+      <Filter>BT</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>globals</Filter>
+    </ClInclude>
+    <ClInclude Include="sms.h">
+      <Filter>SMS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
